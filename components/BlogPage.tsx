@@ -21,7 +21,7 @@ const blogPosts = [
     category: 'Keuangan',
     title: 'Bagaimana Firma Hukum Dapat Membantu Melindungi Bisnis Anda',
     excerpt: 'Pelajari cara firma hukum dapat membantu melindungi aset dan kepentingan bisnis Anda.',
-    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (1).jpg',
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-1.jpg',
     date: '12 November 2024',
     author: 'Marcus Johnson',
     readTime: '7 menit'
@@ -31,7 +31,7 @@ const blogPosts = [
     category: 'Perpajakan',
     title: 'Peran Firma Hukum dalam Menyelesaikan Sengketa',
     excerpt: 'Memahami bagaimana pengacara profesional dapat membantu menyelesaikan sengketa hukum.',
-    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (2).jpg',
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-2.jpg',
     date: '10 November 2024',
     author: 'Emily Chen',
     readTime: '6 menit'
@@ -51,7 +51,7 @@ const blogPosts = [
     category: 'Properti',
     title: 'Aspek Hukum dalam Investasi Properti',
     excerpt: 'Hal-hal penting yang harus diperhatikan sebelum berinvestasi di properti.',
-    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (1).jpg',
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-1.jpg',
     date: '5 November 2024',
     author: 'Jessica Miller',
     readTime: '10 menit'
@@ -61,7 +61,7 @@ const blogPosts = [
     category: 'Ketenagakerjaan',
     title: 'Memahami Hak-Hak Karyawan di Tempat Kerja',
     excerpt: 'Panduan lengkap tentang hak-hak karyawan dan cara melindunginya.',
-    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (2).jpg',
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-2.jpg',
     date: '3 November 2024',
     author: 'Marcus Johnson',
     readTime: '6 menit'

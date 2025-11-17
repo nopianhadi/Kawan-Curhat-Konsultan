@@ -40,7 +40,7 @@ const blogPostsData: BlogPost[] = [
     id: 'melindungi-bisnis',
     category: 'Keuangan',
     title: 'Bagaimana Firma Hukum Dapat Membantu Melindungi Bisnis Anda',
-    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (1).jpg',
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-1.jpg',
     author: 'David Rodriguez',
     date: '12 November 2025',
     readTime: '10 menit',

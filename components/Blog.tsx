@@ -11,13 +11,13 @@ const blogPosts = [
     id: 'mitigasi-risiko-hukum',
     category: 'Layanan Utama',
     title: '5 Strategi Mitigasi Risiko Hukum yang Wajib Diketahui Pengusaha',
-    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (1).jpg'
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-1.jpg'
   },
   {
     id: 'tips-negosiasi-kontrak',
     category: 'Layanan Utama',
     title: 'Tips Negosiasi dalam Penyelesaian Kesepakatan Bisnis',
-    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (2).jpg'
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-2.jpg'
   }
 ];
 
