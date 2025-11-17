@@ -41,5 +41,19 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
+    <script>
+      // Auto-clear cache if data version is outdated
+      (function() {
+        const CURRENT_VERSION = '2';
+        const storedVersion = localStorage.getItem('data_version');
+        if (storedVersion && storedVersion !== CURRENT_VERSION) {
+          console.log('Data version outdated, clearing cache...');
+          localStorage.clear();
+          sessionStorage.clear();
+          localStorage.setItem('data_version', CURRENT_VERSION);
+          window.location.reload();
+        }
+      })();
+    </script>
   </body>
 </html>
