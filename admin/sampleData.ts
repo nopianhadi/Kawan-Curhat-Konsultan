@@ -19,7 +19,7 @@ export const sampleBlogPosts = [
     content: 'Mitigasi risiko hukum adalah kunci kesuksesan bisnis jangka panjang. Artikel ini membahas 5 strategi penting yang harus diterapkan setiap pengusaha untuk melindungi bisnis mereka dari potensi masalah hukum.',
     author: 'Dr. Ahmad Wijaya, S.H., M.H.',
     category: 'Layanan Utama',
-    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (1).jpg',
+    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-1.jpg',
     date: '2024-01-10'
   },
   {
@@ -29,7 +29,7 @@ export const sampleBlogPosts = [
     content: 'Negosiasi adalah seni mencapai kesepakatan yang win-win. Pelajari tips dan strategi negosiasi yang dapat membantu Anda mendapatkan hasil terbaik dalam setiap kesepakatan bisnis.',
     author: 'Sarah Putri, S.H.',
     category: 'Layanan Utama',
-    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ (2).jpg',
+    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-2.jpg',
     date: '2024-01-05'
   }
 ];
@@ -102,7 +102,7 @@ export const sampleTestimonials = [
     role: 'UD Sejahtera Abadi',
     content: 'Pendampingan hukum bisnis yang luar biasa! Kawan Curhat Konsultan membantu kami menghindari risiko hukum yang tidak kami sadari sebelumnya.',
     rating: 5,
-    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg (1).png'
+    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg-1.png'
   },
   {
     id: 'rina-kusuma',
@@ -110,7 +110,7 @@ export const sampleTestimonials = [
     role: 'PT Karya Mandiri',
     content: 'Layanan audit kontrak yang sangat teliti. Mereka menemukan celah-celah yang bisa merugikan bisnis kami. Terima kasih atas perlindungannya!',
     rating: 5,
-    image: '/aset/HCPDxtAQXS7vgrwsd6svNhxA (1).png'
+    image: '/aset/HCPDxtAQXS7vgrwsd6svNhxA-1.png'
   },
   {
     id: 'dedi-prasetyo',
@@ -155,7 +155,7 @@ export const sampleVideoTestimonials = [
     role: 'UD Sejahtera Abadi',
     videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     description: 'Pendampingan Hukum Bisnis',
-    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg (1).png',
+    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg-1.png',
     duration: '2:30'
   }
 ];
