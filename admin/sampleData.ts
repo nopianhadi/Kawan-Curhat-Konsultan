@@ -240,18 +240,33 @@ export const loadSampleData = (contentType: string) => {
   }
 };
 
+// Data version - increment this when image paths or data structure changes
+export const DATA_VERSION = 2;
+
 // Helper function untuk save ke localStorage
 export const initializeSampleData = () => {
   const dataTypes = ['blog', 'services', 'testimonials', 'videos', 'faq', 'gallery'];
+  const currentVersion = localStorage.getItem('data_version');
   
-  dataTypes.forEach(type => {
-    const storageKey = `admin_${type}_data`;
-    const existingData = localStorage.getItem(storageKey);
-    
-    // Hanya load sample data jika belum ada data
-    if (!existingData) {
+  // Force reload if version changed
+  if (currentVersion !== String(DATA_VERSION)) {
+    console.log('Data version changed, reloading sample data...');
+    dataTypes.forEach(type => {
+      const storageKey = `admin_${type}_data`;
       const sampleData = loadSampleData(type);
       localStorage.setItem(storageKey, JSON.stringify(sampleData));
-    }
-  });
+    });
+    localStorage.setItem('data_version', String(DATA_VERSION));
+  } else {
+    // Hanya load sample data jika belum ada data
+    dataTypes.forEach(type => {
+      const storageKey = `admin_${type}_data`;
+      const existingData = localStorage.getItem(storageKey);
+      
+      if (!existingData) {
+        const sampleData = loadSampleData(type);
+        localStorage.setItem(storageKey, JSON.stringify(sampleData));
+      }
+    });
+  }
 };

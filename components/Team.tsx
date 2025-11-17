@@ -20,14 +20,14 @@ const teamMembers = [
     id: 'rudi-hartono',
     name: 'Rudi Hartono, S.H., M.Kn.',
     role: 'Ahli Mitigasi Risiko Bisnis',
-    imgSrc: '/aset/Tnk4Lg3kRpPqwokv6Gm3XFbK8lg (1).png',
+    imgSrc: '/aset/Tnk4Lg3kRpPqwokv6Gm3XFbK8lg-1.png',
     socials: { linkedin: '#', x: '#' }
   },
   {
     id: 'maya-sari',
     name: 'Maya Sari, S.H.',
     role: 'Konsultan Kepatuhan & Compliance',
-    imgSrc: '/aset/TqS3UseOtZCu5QAnynTXnZIP60 (1).png',
+    imgSrc: '/aset/TqS3UseOtZCu5QAnynTXnZIP60-1.png',
     socials: { linkedin: '#', x: '#' }
   }
 ];

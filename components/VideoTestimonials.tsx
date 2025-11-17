@@ -19,7 +19,7 @@ const videos = [
   },
   {
     id: 3,
-    thumbnail: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg (1).png',
+    thumbnail: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg-1.png',
     title: 'Pendampingan Hukum Bisnis',
     name: 'Ahmad Wijaya',
     company: 'UD Sejahtera Abadi',

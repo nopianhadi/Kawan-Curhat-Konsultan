@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Plus, Edit2, Trash2, Save, X, Search } from 'lucide-react';
-import { loadSampleData } from './sampleData';
+import { loadSampleData, initializeSampleData, DATA_VERSION } from './sampleData';
 
 interface ContentManagerProps {
   contentType: string;
@@ -32,6 +32,9 @@ const ContentManager: React.FC<ContentManagerProps> = ({ contentType }) => {
 
   // Load data dari localStorage atau sample data
   useEffect(() => {
+    // Initialize/update sample data if version changed
+    initializeSampleData();
+    
     const storageKey = `admin_${contentType}_data`;
     const savedData = localStorage.getItem(storageKey);
     

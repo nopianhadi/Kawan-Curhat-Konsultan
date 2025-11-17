@@ -66,7 +66,7 @@ const teamMembersData: TeamMember[] = [
     id: 'rudi-hartono',
     name: 'Rudi Hartono, S.H., M.Kn.',
     role: 'Ahli Mitigasi Risiko Bisnis',
-    imgSrc: '/aset/Tnk4Lg3kRpPqwokv6Gm3XFbK8lg (1).png',
+    imgSrc: '/aset/Tnk4Lg3kRpPqwokv6Gm3XFbK8lg-1.png',
     bio: 'Rudi Hartono adalah ahli mitigasi risiko bisnis dengan keahlian dalam mengidentifikasi dan mengelola risiko hukum dan bisnis. Beliau membantu perusahaan menjaga kelangsungan dan pertumbuhan usaha secara berkelanjutan.',
     education: [
       'S.H., Universitas Padjadjaran',
@@ -89,7 +89,7 @@ const teamMembersData: TeamMember[] = [
     id: 'maya-sari',
     name: 'Maya Sari, S.H.',
     role: 'Konsultan Kepatuhan & Compliance',
-    imgSrc: '/aset/TqS3UseOtZCu5QAnynTXnZIP60 (1).png',
+    imgSrc: '/aset/TqS3UseOtZCu5QAnynTXnZIP60-1.png',
     bio: 'Maya Sari adalah konsultan kepatuhan dan compliance dengan keahlian dalam memastikan bisnis mematuhi regulasi yang berlaku. Beliau membantu perusahaan menghindari sanksi dan menjaga reputasi bisnis.',
     education: [
       'S.H., Universitas Airlangga',
