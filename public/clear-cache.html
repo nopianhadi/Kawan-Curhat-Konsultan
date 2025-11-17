@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear Cache - Kawan Curhat Konsultan</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px;
+    }
+    button:hover {
+      background: #1d4ed8;
+    }
+    .success {
+      color: #16a34a;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔄 Clear Cache & Reload Data</h1>
+  <p>Klik tombol di bawah untuk menghapus data lama dan memuat ulang data gambar yang sudah diperbaiki.</p>
+  
+  <button onclick="clearCache()">Clear Cache & Reload</button>
+  
+  <div id="message"></div>
+
+  <script>
+    function clearCache() {
+      // Clear all localStorage
+      localStorage.clear();
+      
+      // Show success message
+      document.getElementById('message').innerHTML = '<p class="success">✅ Cache berhasil dihapus!<br>Halaman akan dimuat ulang dalam 2 detik...</p>';
+      
+      // Reload after 2 seconds
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
