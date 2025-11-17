@@ -14,7 +14,7 @@ const values = [
   {
     title: 'Profesionalisme',
     description: 'Memberikan layanan konsultasi hukum yang profesional dan mudah dipahami.',
-    imgSrc: '/aset/0GfHSok4FpwF794IxxL1j5cJOc (2).jpg'
+    imgSrc: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ.jpg'
   },
   {
     title: 'Solusi Praktis',
