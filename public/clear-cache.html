@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clear Cache - Kawan Curhat</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 600px;
+      margin: 50px auto;
+      padding: 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    h1 {
+      color: #1e293b;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #64748b;
+      line-height: 1.6;
+    }
+    button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 16px 32px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      margin: 20px 0;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+    button:hover {
+      background: #1d4ed8;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
+    }
+    .success {
+      color: #16a34a;
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .info {
+      background: #eff6ff;
+      border-left: 4px solid #2563eb;
+      padding: 15px;
+      margin: 20px 0;
+      text-align: left;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔄 Clear Cache & Reload Data</h1>
+    <p>Gambar tidak muncul? Klik tombol di bawah untuk menghapus cache lama dan memuat ulang data dengan path gambar yang sudah diperbaiki.</p>
+    
+    <div class="info">
+      <strong>ℹ️ Catatan:</strong><br>
+      Proses ini akan menghapus semua data tersimpan di browser dan memuat ulang dengan data terbaru.
+    </div>
+    
+    <button onclick="clearCache()">🗑️ Clear Cache & Reload</button>
+    
+    <div id="message"></div>
+  </div>
+
+  <script>
+    // Auto-clear on load if URL has ?auto=true
+    if (window.location.search.includes('auto=true')) {
+      clearCache();
+    }
+
+    function clearCache() {
+      // Clear all localStorage
+      localStorage.clear();
+      
+      // Clear sessionStorage too
+      sessionStorage.clear();
+      
+      // Show success message
+      document.getElementById('message').innerHTML = '<p class="success">✅ Cache berhasil dihapus!<br>Halaman akan dimuat ulang dalam 2 detik...</p>';
+      
+      // Reload after 2 seconds
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 2000);
+    }
+  </script>
+</body>
+</html>
