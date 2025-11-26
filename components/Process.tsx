@@ -5,23 +5,44 @@ const processSteps = [
     step: '01',
     title: 'Konsultasi Awal',
     description: 'Diskusi mendalam untuk memahami kebutuhan bisnis dan tantangan hukum yang Anda hadapi.',
-    imgSrc: '/aset/t6khcfc7c4GsuUlYG7bfTPKye18.png'
+    icon: (
+      <svg className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" fill="currentColor" opacity="0.2"/>
+        <path d="M20 2H4C2.9 2 2 2.9 2 4V22L6 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M7 7H17M7 11H17M7 15H13" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+      </svg>
+    )
   },
   {
     step: '02',
     title: 'Analisis & Strategi',
     description: 'Menganalisis risiko dan menyusun strategi legal yang praktis dan aplikatif untuk bisnis Anda.',
-    imgSrc: '/aset/t6khcfc7c4GsuUlYG7bfTPKye18 (1).png'
+    icon: (
+      <svg className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3 3V21H21" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M7 16L12 11L15 14L21 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+        <circle cx="7" cy="16" r="2" fill="currentColor"/>
+        <circle cx="12" cy="11" r="2" fill="currentColor"/>
+        <circle cx="15" cy="14" r="2" fill="currentColor"/>
+        <circle cx="21" cy="8" r="2" fill="currentColor"/>
+      </svg>
+    )
   },
   {
     step: '03',
     title: 'Implementasi & Pendampingan',
     description: 'Melaksanakan solusi hukum dan memberikan pendampingan berkelanjutan untuk keamanan bisnis Anda.',
-    imgSrc: '/aset/t6khcfc7c4GsuUlYG7bfTPKye18 (2).png'
+    icon: (
+      <svg className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12" cy="12" r="10" fill="currentColor" opacity="0.2"/>
+        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
+        <path d="M8 12L11 15L16 9" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+    )
   }
 ];
 
-const ProcessCard: React.FC<{ step: string; title: string; description: string; imgSrc: string; index: number; }> = ({ step, title, description, imgSrc, index }) => {
+const ProcessCard: React.FC<{ step: string; title: string; description: string; icon: React.ReactNode; index: number; }> = ({ step, title, description, icon, index }) => {
     const ref = useRef<HTMLDivElement>(null);
     const [isVisible, setIsVisible] = useState(false);
     
@@ -42,17 +63,22 @@ const ProcessCard: React.FC<{ step: string; title: string; description: string; 
     return (
         <div
             ref={ref}
-            className={`relative rounded-lg sm:rounded-xl md:rounded-2xl overflow-hidden shadow-lg group transition-all duration-500 ease-out hover:shadow-2xl hover:scale-105 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+            className={`bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-10 shadow-sm border border-gray-100 group transition-all duration-500 ease-out hover:shadow-xl hover:-translate-y-2 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
             style={{ transitionDelay: `${index * 150}ms`}}
         >
-            <img src={imgSrc} alt={title} className="w-full h-48 sm:h-64 md:h-80 lg:h-96 object-cover transition-transform duration-500 group-hover:scale-110" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent"></div>
-            <div className="absolute bottom-0 left-0 p-2 sm:p-3 md:p-4 lg:p-6 w-full">
-                <div className="bg-white/90 backdrop-blur-sm p-2 sm:p-3 md:p-4 lg:p-5 rounded-lg sm:rounded-xl shadow-md">
-                    <span className="flex items-center justify-center w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 bg-brand-accent text-white font-bold text-sm sm:text-base md:text-lg lg:text-xl rounded-full mb-2 sm:mb-3 md:mb-4 -mt-8 sm:-mt-10 md:-mt-12 border-2 sm:border-3 md:border-4 border-brand-light">{step}</span>
-                    <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-brand-text mb-0.5 sm:mb-1">{title}</h3>
-                    <p className="text-[10px] sm:text-xs md:text-sm lg:text-base text-gray-600">{description}</p>
+            <div className="flex flex-col items-center text-center">
+                <div className="mb-6 text-brand-accent transition-transform duration-500 group-hover:scale-110">
+                    {icon}
                 </div>
+                <div className="flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 bg-brand-accent/10 text-brand-accent font-bold text-lg sm:text-xl rounded-full mb-4">
+                    {step}
+                </div>
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-brand-text mb-3">
+                    {title}
+                </h3>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+                    {description}
+                </p>
             </div>
         </div>
     );

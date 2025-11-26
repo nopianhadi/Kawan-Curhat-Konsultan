@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Users, FileText, Briefcase, MessageSquare, Settings, LogOut, Menu, X, BarChart3, TrendingUp, Video, HelpCircle, Image } from 'lucide-react';
+import { Users, FileText, Briefcase, MessageSquare, Settings as SettingsIcon, LogOut, Menu, X, BarChart3, TrendingUp, Video, HelpCircle, Image } from 'lucide-react';
 import ContentManager from './ContentManager';
+import Settings from './Settings';
 
 interface DashboardProps {}
 
@@ -19,7 +20,7 @@ const Dashboard: React.FC<DashboardProps> = () => {
     { label: 'Artikel Blog', value: '3', change: '+100%', icon: FileText, color: 'bg-blue-500' },
     { label: 'Layanan', value: '6', change: '+20%', icon: Briefcase, color: 'bg-green-500' },
     { label: 'Testimoni', value: '6', change: '+50%', icon: MessageSquare, color: 'bg-purple-500' },
-    { label: 'Video Testimoni', value: '3', change: '+200%', icon: Video, color: 'bg-orange-500' },
+    { label: 'FAQ', value: '5', change: '+25%', icon: HelpCircle, color: 'bg-orange-500' },
   ];
 
   const menuItems = [
@@ -30,7 +31,7 @@ const Dashboard: React.FC<DashboardProps> = () => {
     { id: 'videos', label: 'Video Testimoni', icon: Video },
     { id: 'faq', label: 'FAQ', icon: HelpCircle },
     { id: 'gallery', label: 'Galeri', icon: Image },
-    { id: 'settings', label: 'Pengaturan', icon: Settings },
+    { id: 'settings', label: 'Pengaturan', icon: SettingsIcon },
   ];
 
   return (
@@ -100,7 +101,9 @@ const Dashboard: React.FC<DashboardProps> = () => {
 
         {/* Content */}
         <main className="flex-1 overflow-y-auto p-6">
-          {activeMenu === 'dashboard' ? (
+          {activeMenu === 'settings' ? (
+            <Settings />
+          ) : activeMenu === 'dashboard' ? (
             <>
               {/* Stats Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">

@@ -73,7 +73,7 @@ const AboutPage: React.FC = () => {
               <div className="flex items-center mb-6">
                 <div className="w-20 h-20 rounded-full overflow-hidden mr-4 ring-4 ring-white/30">
                   <img 
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop" 
+                    src="/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_a67ea4d6.jpg" 
                     alt="Founder" 
                     className="w-full h-full object-cover"
                   />
@@ -263,6 +263,216 @@ const AboutPage: React.FC = () => {
             <div className="group hover:scale-110 transition-transform duration-500">
               <div className="text-6xl md:text-7xl font-bold text-brand-accent mb-3 group-hover:scale-110 transition-transform duration-300">95%</div>
               <div className="text-white/90 text-lg">Kepuasan Klien</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Gallery Section */}
+      <div className="bg-gradient-to-br from-gray-50 to-white py-12 sm:py-16 md:py-24 lg:py-32">
+        <div className="container mx-auto px-3 sm:px-6 lg:px-8">
+          <div className="text-center mb-8 sm:mb-12 md:mb-16">
+            <p className="text-brand-accent font-semibold mb-2 text-xs sm:text-sm uppercase tracking-wide">Galeri</p>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-brand-text mb-4">
+              Momen Bersama Klien
+            </h2>
+            <p className="text-gray-600 text-sm sm:text-base md:text-lg max-w-2xl mx-auto">
+              Dokumentasi kegiatan konsultasi, seminar, dan kolaborasi bersama klien-klien kami
+            </p>
+          </div>
+
+          {/* Gallery Grid - Masonry Layout */}
+          <div className="columns-2 md:columns-3 lg:columns-4 gap-4 md:gap-6 space-y-4 md:space-y-6">
+            {/* Image 1 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_1671753d.jpg" 
+                alt="Galeri 1" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 2 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_dfe4335f.jpg" 
+                alt="Galeri 2" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 3 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-21 pukul 13.04.36_c2a78587.jpg" 
+                alt="Galeri 3" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 4 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-21 pukul 13.04.53_9bb8993b.jpg" 
+                alt="Galeri 4" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 5 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/0GfHSok4FpwF794IxxL1j5cJOc.jpg" 
+                alt="Galeri 5" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 6 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-21 pukul 13.05.26_1c85e01b.jpg" 
+                alt="Galeri 6" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 7 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-21 pukul 13.05.26_06a370f4.jpg" 
+                alt="Galeri 7" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 8 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-21 pukul 13.07.19_38d88533.jpg" 
+                alt="Galeri 8" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 9 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/0GfHSok4FpwF794IxxL1j5cJOc-1.jpg" 
+                alt="Galeri 9" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 10 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-21 pukul 13.09.30_78b09449.jpg" 
+                alt="Galeri 10" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 11 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-21 pukul 13.09.30_b8e35de5.jpg" 
+                alt="Galeri 11" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 12 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-24 pukul 12.18.20_01e63665.jpg" 
+                alt="Galeri 12" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 13 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/Gambar WhatsApp 2025-11-24 pukul 12.22.04_acc3b090.jpg" 
+                alt="Galeri 13" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 15 - Additional */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/0GfHSok4FpwF794IxxL1j5cJOc-2.jpg" 
+                alt="Galeri 15" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 16 - Additional */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/HA37E48AB0E8Pdno3Rgfn3NpA.jpg" 
+                alt="Galeri 16" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            </div>
+
+            {/* Image 14 - KH Yusuf Mansur */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <img 
+                src="/aset/KH Yusuf Mansur.jpg" 
+                alt="KH Yusuf Mansur" 
+                className="w-full h-auto object-cover group-hover:scale-110 transition-transform duration-700"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-end p-4">
+                <p className="text-white font-semibold text-sm">KH Yusuf Mansur</p>
+              </div>
+            </div>
+
+            {/* Video 1 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <video 
+                controls
+                className="w-full h-auto object-cover"
+                poster="/aset/Folder Baru/ASG.jpg"
+              >
+                <source src="/aset/Folder Baru/Video WhatsApp 2025-11-24 pukul 12.22.14_5784c61c.mp4" type="video/mp4" />
+                Browser Anda tidak mendukung video.
+              </video>
+              <div className="absolute top-3 right-3 bg-black/70 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                Video
+              </div>
+            </div>
+
+            {/* Video 2 */}
+            <div className="relative overflow-hidden rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 group break-inside-avoid mb-4 md:mb-6">
+              <video 
+                controls
+                className="w-full h-auto object-cover"
+                poster="/aset/Folder Baru/KH Yusuf Mansur.jpg"
+              >
+                <source src="/aset/Folder Baru/Video WhatsApp 2025-11-24 pukul 12.22.28_cbdf5059.mp4" type="video/mp4" />
+                Browser Anda tidak mendukung video.
+              </video>
+              <div className="absolute top-3 right-3 bg-black/70 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                Video
+              </div>
             </div>
           </div>
         </div>

@@ -2,19 +2,19 @@ import React, { useState } from 'react';
 
 const testimonials = [
   {
-    id: 'budi-santoso',
+    id: 'asg',
     quote: 'Konsultasi yang sangat membantu! Kawan Curhat memberikan solusi praktis untuk masalah kontrak bisnis kami. Sangat profesional dan mudah dipahami.',
-    name: 'Budi Santoso',
-    company: 'PT Maju Bersama',
-    imgSrc: '/aset/FQGwjWxFujEGoR5UIhNoCDGNls.png',
+    name: 'ASG',
+    company: 'Klien Kawan Curhat',
+    imgSrc: '/aset/Folder Baru/ASG.jpg',
     rating: 5
   },
   {
-    id: 'siti-nurhaliza',
+    id: 'kh-yusuf-mansur',
     quote: 'Tim yang sangat responsif dan komunikatif. Mereka membantu kami dalam penyusunan kontrak kerjasama dengan sangat detail dan aman.',
-    name: 'Siti Nurhaliza',
-    company: 'CV Berkah Jaya',
-    imgSrc: '/aset/nYaGB97fhZHzf1oxKf5s0vj4.png',
+    name: 'KH Yusuf Mansur',
+    company: 'Tokoh Nasional',
+    imgSrc: '/aset/Folder Baru/KH Yusuf Mansur.jpg',
     rating: 5
   },
   {
@@ -22,7 +22,7 @@ const testimonials = [
     quote: 'Pendampingan hukum bisnis yang luar biasa! Kawan Curhat membantu kami menghindari risiko hukum yang tidak kami sadari sebelumnya.',
     name: 'Ahmad Wijaya',
     company: 'UD Sejahtera Abadi',
-    imgSrc: '/aset/qejt4Jf3i6rJpIMKhN4RkQhG0.png',
+    imgSrc: '/aset/FQGwjWxFujEGoR5UIhNoCDGNls.png',
     rating: 5
   },
   {
@@ -30,7 +30,7 @@ const testimonials = [
     quote: 'Layanan audit kontrak yang sangat teliti. Mereka menemukan celah-celah yang bisa merugikan bisnis kami. Terima kasih atas perlindungannya!',
     name: 'Rina Kusuma',
     company: 'PT Karya Mandiri',
-    imgSrc: '/aset/FQGwjWxFujEGoR5UIhNoCDGNls.png',
+    imgSrc: '/aset/nYaGB97fhZHzf1oxKf5s0vj4.png',
     rating: 5
   },
   {
@@ -38,7 +38,7 @@ const testimonials = [
     quote: 'Konsultan yang benar-benar memahami kebutuhan bisnis. Solusi yang diberikan praktis dan langsung bisa diterapkan. Highly recommended!',
     name: 'Dedi Prasetyo',
     company: 'Toko Elektronik Jaya',
-    imgSrc: '/aset/nYaGB97fhZHzf1oxKf5s0vj4.png',
+    imgSrc: '/aset/qejt4Jf3i6rJpIMKhN4RkQhG0.png',
     rating: 5
   },
   {
@@ -46,7 +46,7 @@ const testimonials = [
     quote: 'Pendekatan yang komunikatif dan solutif membuat kami merasa nyaman. Kawan Curhat benar-benar mitra bisnis yang terpercaya.',
     name: 'Linda Permata',
     company: 'Startup Digital Indonesia',
-    imgSrc: '/aset/qejt4Jf3i6rJpIMKhN4RkQhG0.png',
+    imgSrc: '/aset/FQGwjWxFujEGoR5UIhNoCDGNls.png',
     rating: 5
   }
 ];

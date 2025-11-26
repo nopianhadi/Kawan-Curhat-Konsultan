@@ -9,7 +9,7 @@ const values = [
   {
     title: 'Kerahasiaan',
     description: 'Menjamin keamanan dan privasi seluruh data serta informasi klien dengan standar tertinggi.',
-    imgSrc: '/aset/0GfHSok4FpwF794IxxL1j5cJOc (1).jpg'
+    imgSrc: '/aset/0GfHSok4FpwF794IxxL1j5cJOc-1.jpg'
   },
   {
     title: 'Profesionalisme',

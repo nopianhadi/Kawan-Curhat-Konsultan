@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSettings } from '../hooks/useSettings';
 
 interface HeaderProps {
   onNavigate?: (page: string) => void;
@@ -6,6 +7,7 @@ interface HeaderProps {
 }
 
 const Header: React.FC<HeaderProps> = ({ onNavigate, isDetailPage = false }) => {
+  const settings = useSettings();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -38,8 +40,8 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, isDetailPage = false }) => 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`flex items-center justify-between h-20 transition-all duration-300 ${isScrolled ? 'h-16' : 'h-20'}`}>
           <div className="flex-shrink-0">
-            <button onClick={() => handleNavClick('home')} aria-label="Kawan Curhat Home" className={`text-xl md:text-2xl font-bold transition-all duration-300 ${shouldShowSolid ? 'text-gradient-primary' : 'text-white drop-shadow-lg'}`}>
-              Kawan Curhat
+            <button onClick={() => handleNavClick('home')} aria-label={`${settings.siteName} Home`} className={`text-xl md:text-2xl font-bold transition-all duration-300 ${shouldShowSolid ? 'text-gradient-primary' : 'text-white drop-shadow-lg'}`}>
+              {settings.siteName}
             </button>
           </div>
 
@@ -109,7 +111,7 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, isDetailPage = false }) => 
 
     {/* WhatsApp Floating Button */}
     <a
-      href="https://wa.me/6281234567890?text=Halo%20Admin%20Kawan%20Curhat,%20saya%20ingin%20bertanya"
+      href={`https://wa.me/62${settings.whatsapp.replace(/^0/, '')}?text=Halo%20Admin%20${encodeURIComponent(settings.siteName)},%20saya%20ingin%20bertanya`}
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 w-12 h-12 md:w-14 md:h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 flex items-center justify-center group animate-bounce-slow"

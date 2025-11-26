@@ -5,32 +5,20 @@ export const sampleBlogPosts = [
   {
     id: 'pentingnya-audit-kontrak',
     title: 'Pentingnya Audit Kontrak Bisnis untuk Melindungi Perusahaan Anda',
-    description: 'Audit kontrak bisnis adalah langkah penting untuk memastikan semua kesepakatan bisnis Anda aman dan menguntungkan',
-    content: 'Audit kontrak bisnis membantu mengidentifikasi risiko hukum dan celah yang dapat merugikan perusahaan Anda. Dengan audit yang teliti, Anda dapat melindungi kepentingan bisnis dan menghindari sengketa di masa depan.',
-    author: 'Tim Kawan Curhat',
     category: 'Layanan Utama',
-    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ.jpg',
-    date: '2024-01-15'
+    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ.jpg'
   },
   {
     id: 'mitigasi-risiko-hukum',
     title: '5 Strategi Mitigasi Risiko Hukum yang Wajib Diketahui Pengusaha',
-    description: 'Pelajari strategi efektif untuk melindungi bisnis Anda dari risiko hukum yang tidak terduga',
-    content: 'Mitigasi risiko hukum adalah kunci kesuksesan bisnis jangka panjang. Artikel ini membahas 5 strategi penting yang harus diterapkan setiap pengusaha untuk melindungi bisnis mereka dari potensi masalah hukum.',
-    author: 'Dr. Ahmad Wijaya, S.H., M.H.',
     category: 'Layanan Utama',
-    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-1.jpg',
-    date: '2024-01-10'
+    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-1.jpg'
   },
   {
     id: 'tips-negosiasi-kontrak',
     title: 'Tips Negosiasi dalam Penyelesaian Kesepakatan Bisnis',
-    description: 'Teknik negosiasi yang efektif untuk mencapai kesepakatan bisnis yang menguntungkan semua pihak',
-    content: 'Negosiasi adalah seni mencapai kesepakatan yang win-win. Pelajari tips dan strategi negosiasi yang dapat membantu Anda mendapatkan hasil terbaik dalam setiap kesepakatan bisnis.',
-    author: 'Sarah Putri, S.H.',
     category: 'Layanan Utama',
-    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-2.jpg',
-    date: '2024-01-05'
+    image: '/aset/zi9l7tvMWofjPzhdHi0yrHjmkHQ-2.jpg'
   }
 ];
 
@@ -38,116 +26,104 @@ export const sampleServices = [
   {
     id: 'konsultasi-hukum-bisnis',
     title: 'Konsultasi Hukum Bisnis',
-    description: 'Konsultasi hukum bisnis yang komprehensif untuk membantu Anda mengambil keputusan bisnis yang tepat dan sesuai dengan regulasi yang berlaku.',
-    content: 'Kami menyediakan konsultasi hukum bisnis yang mencakup pendirian perusahaan, kontrak bisnis, merger & akuisisi, dan berbagai aspek hukum bisnis lainnya. Tim ahli kami siap membantu Anda mengambil keputusan bisnis yang tepat.',
-    image: '/aset/jiTLFEV4a4qaz2NNwdcRqyNjA.jpg'
+    description: 'Konsultasi hukum bisnis yang komprehensif untuk membantu Anda mengambil keputusan bisnis yang tepat dan sesuai dengan regulasi yang berlaku.'
   },
   {
     id: 'perlindungan-bisnis',
     title: 'Perlindungan Bisnis',
-    description: 'Perlindungan bisnis dari risiko hukum dan potensi sengketa melalui strategi preventif yang terukur dan komprehensif.',
-    content: 'Lindungi bisnis Anda dari risiko hukum dengan strategi preventif yang komprehensif. Kami membantu mengidentifikasi dan mengatasi potensi masalah sebelum menjadi sengketa.',
-    image: '/aset/FmBH1mh1N2oC25JeIJBfAe2ZPhE.jpg'
+    description: 'Perlindungan bisnis dari risiko hukum dan potensi sengketa melalui strategi preventif yang terukur dan komprehensif.'
   },
   {
     id: 'penyusunan-kontrak',
     title: 'Penyusunan dan Audit Kontrak',
-    description: 'Penyusunan dan audit kontrak secara profesional untuk memastikan kepentingan bisnis Anda terlindungi dengan baik.',
-    content: 'Tim ahli kami siap membantu menyusun kontrak bisnis yang melindungi kepentingan Anda dan melakukan audit kontrak yang sudah ada untuk mengidentifikasi risiko.',
-    image: '/aset/rlVzXYOqX40nNf1WB0T02RCvmL4.jpg'
+    description: 'Penyusunan dan audit kontrak secara profesional untuk memastikan kepentingan bisnis Anda terlindungi dengan baik.'
   },
   {
     id: 'mitigasi-risiko',
     title: 'Mitigasi Risiko',
-    description: 'Mitigasi risiko hukum dan bisnis untuk menjaga kelangsungan dan pertumbuhan usaha Anda secara berkelanjutan.',
-    content: 'Identifikasi dan kelola risiko hukum bisnis Anda dengan strategi mitigasi yang efektif. Kami membantu Anda menghindari masalah hukum yang dapat menghambat pertumbuhan bisnis.',
-    image: '/aset/vzTxyib8zsujRxdOR62McXyhxhg.jpg'
+    description: 'Mitigasi risiko hukum dan bisnis untuk menjaga kelangsungan dan pertumbuhan usaha Anda secara berkelanjutan.'
   },
   {
     id: 'negosiasi',
     title: 'Negosiasi',
-    description: 'Negosiasi dalam penyelesaian kesepakatan atau konflik untuk mencapai solusi yang menguntungkan semua pihak.',
-    content: 'Kami membantu Anda dalam proses negosiasi bisnis untuk mencapai kesepakatan yang menguntungkan. Tim kami berpengalaman dalam mediasi dan penyelesaian konflik bisnis.',
-    image: '/aset/jiTLFEV4a4qaz2NNwdcRqyNjA.jpg'
+    description: 'Negosiasi dalam penyelesaian kesepakatan atau konflik untuk mencapai solusi yang menguntungkan semua pihak.'
   },
   {
     id: 'pendampingan-hukum',
     title: 'Pendampingan Hukum',
-    description: 'Pendampingan hukum untuk pelaku usaha dan profesional dalam setiap tahapan proses bisnis yang Anda jalani.',
-    content: 'Dapatkan pendampingan hukum profesional di setiap tahap bisnis Anda. Kami siap menjadi mitra terpercaya dalam perjalanan bisnis Anda.',
-    image: '/aset/FmBH1mh1N2oC25JeIJBfAe2ZPhE.jpg'
+    description: 'Pendampingan hukum untuk pelaku usaha dan profesional dalam setiap tahapan proses bisnis yang Anda jalani.'
   }
 ];
 
 export const sampleTestimonials = [
   {
-    id: 'budi-santoso',
-    name: 'Budi Santoso',
-    role: 'PT Maju Bersama',
-    content: 'Konsultasi yang sangat membantu! Kawan Curhat memberikan solusi praktis untuk masalah kontrak bisnis kami. Sangat profesional dan mudah dipahami.',
+    id: 'asg',
+    name: 'ASG',
+    role: 'Klien Kawan Curhat',
+    quote: 'Konsultasi yang sangat membantu! Kawan Curhat memberikan solusi praktis untuk masalah kontrak bisnis kami. Sangat profesional dan mudah dipahami.',
     rating: 5,
-    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg.png'
+    image: '/aset/Folder Baru/ASG.jpg'
   },
   {
-    id: 'siti-nurhaliza',
-    name: 'Siti Nurhaliza',
-    role: 'CV Berkah Jaya',
-    content: 'Tim yang sangat responsif dan komunikatif. Mereka membantu kami dalam penyusunan kontrak kerjasama dengan sangat detail dan aman.',
+    id: 'kh-yusuf-mansur',
+    name: 'KH Yusuf Mansur',
+    role: 'Tokoh Nasional',
+    quote: 'Tim yang sangat responsif dan komunikatif. Mereka membantu kami dalam penyusunan kontrak kerjasama dengan sangat detail dan aman.',
     rating: 5,
-    image: '/aset/HCPDxtAQXS7vgrwsd6svNhxA.png'
+    image: '/aset/Folder Baru/KH Yusuf Mansur.jpg'
   },
   {
     id: 'ahmad-wijaya',
     name: 'Ahmad Wijaya',
     role: 'UD Sejahtera Abadi',
-    content: 'Pendampingan hukum bisnis yang luar biasa! Kawan Curhat membantu kami menghindari risiko hukum yang tidak kami sadari sebelumnya.',
+    quote: 'Pendampingan hukum bisnis yang luar biasa! Kawan Curhat membantu kami menghindari risiko hukum yang tidak kami sadari sebelumnya.',
     rating: 5,
-    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg-1.png'
+    image: '/aset/FQGwjWxFujEGoR5UIhNoCDGNls.png'
   },
   {
     id: 'rina-kusuma',
     name: 'Rina Kusuma',
     role: 'PT Karya Mandiri',
-    content: 'Layanan audit kontrak yang sangat teliti. Mereka menemukan celah-celah yang bisa merugikan bisnis kami. Terima kasih atas perlindungannya!',
+    quote: 'Layanan audit kontrak yang sangat teliti. Mereka menemukan celah-celah yang bisa merugikan bisnis kami. Terima kasih atas perlindungannya!',
     rating: 5,
-    image: '/aset/HCPDxtAQXS7vgrwsd6svNhxA-1.png'
+    image: '/aset/nYaGB97fhZHzf1oxKf5s0vj4.png'
   },
   {
     id: 'dedi-prasetyo',
     name: 'Dedi Prasetyo',
     role: 'Toko Elektronik Jaya',
-    content: 'Konsultan yang benar-benar memahami kebutuhan bisnis. Solusi yang diberikan praktis dan langsung bisa diterapkan. Highly recommended!',
+    quote: 'Konsultan yang benar-benar memahami kebutuhan bisnis. Solusi yang diberikan praktis dan langsung bisa diterapkan. Highly recommended!',
     rating: 5,
-    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg.png'
+    image: '/aset/qejt4Jf3i6rJpIMKhN4RkQhG0.png'
   },
   {
     id: 'linda-permata',
     name: 'Linda Permata',
     role: 'Startup Digital Indonesia',
-    content: 'Pendekatan yang komunikatif dan solutif membuat kami merasa nyaman. Kawan Curhat benar-benar mitra bisnis yang terpercaya.',
+    quote: 'Pendekatan yang komunikatif dan solutif membuat kami merasa nyaman. Kawan Curhat benar-benar mitra bisnis yang terpercaya.',
     rating: 5,
-    image: '/aset/HCPDxtAQXS7vgrwsd6svNhxA.png'
+    image: '/aset/FQGwjWxFujEGoR5UIhNoCDGNls.png'
   }
 ];
 
 export const sampleVideoTestimonials = [
   {
     id: '1',
-    name: 'Budi Santoso',
-    role: 'PT Maju Bersama',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    description: 'Kisah Sukses - Penyusunan Kontrak Bisnis',
-    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg.png',
-    duration: '2:45'
+    name: 'ASG',
+    role: 'Klien Kawan Curhat',
+    videoUrl: '/aset/Folder Baru/Video WhatsApp 2025-11-24 pukul 12.22.14_5784c61c.mp4',
+    description: 'Testimoni Video - Pengalaman Konsultasi Hukum Bisnis',
+    image: '/aset/Folder Baru/ASG.jpg',
+    duration: '1:30'
   },
   {
     id: '2',
-    name: 'Linda Permata',
-    role: 'Startup Digital Indonesia',
-    videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    description: 'Mitigasi Risiko untuk Startup',
-    image: '/aset/HCPDxtAQXS7vgrwsd6svNhxA.png',
-    duration: '3:12'
+    name: 'KH Yusuf Mansur',
+    role: 'Tokoh Nasional',
+    videoUrl: '/aset/Folder Baru/Video WhatsApp 2025-11-24 pukul 12.22.28_cbdf5059.mp4',
+    description: 'Testimoni Video - Kepercayaan dan Profesionalisme',
+    image: '/aset/Folder Baru/KH Yusuf Mansur.jpg',
+    duration: '1:45'
   },
   {
     id: '3',
@@ -155,7 +131,7 @@ export const sampleVideoTestimonials = [
     role: 'UD Sejahtera Abadi',
     videoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     description: 'Pendampingan Hukum Bisnis',
-    image: '/aset/57bTNKjv9qxZyS3y3Um9B5nCRFg-1.png',
+    image: '/aset/FQGwjWxFujEGoR5UIhNoCDGNls.png',
     duration: '2:30'
   }
 ];
@@ -196,27 +172,87 @@ export const sampleFAQs = [
 export const sampleGallery = [
   {
     id: '1',
-    title: 'Kantor Pusat',
-    description: 'Kantor pusat Kawan Curhat',
-    image: '/aset/office-1.jpg'
+    title: 'Konsultasi Klien',
+    description: 'Sesi konsultasi hukum bisnis dengan klien',
+    image: '/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_1671753d.jpg'
   },
   {
     id: '2',
-    title: 'Ruang Meeting',
-    description: 'Ruang meeting untuk konsultasi klien',
-    image: '/aset/office-2.jpg'
+    title: 'Pertemuan Bisnis',
+    description: 'Diskusi strategi hukum bisnis',
+    image: '/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_dfe4335f.jpg'
   },
   {
     id: '3',
-    title: 'Tim Konsultan',
-    description: 'Tim konsultan hukum profesional',
-    image: '/aset/team-photo.jpg'
+    title: 'Seminar Hukum',
+    description: 'Acara seminar hukum bisnis untuk pelaku usaha',
+    image: '/aset/Gambar WhatsApp 2025-11-21 pukul 13.04.36_c2a78587.jpg'
   },
   {
     id: '4',
-    title: 'Seminar Hukum Bisnis',
-    description: 'Acara seminar hukum bisnis untuk UMKM',
-    image: '/aset/seminar-1.jpg'
+    title: 'Workshop Kontrak',
+    description: 'Workshop penyusunan kontrak bisnis',
+    image: '/aset/Gambar WhatsApp 2025-11-21 pukul 13.04.53_9bb8993b.jpg'
+  },
+  {
+    id: '5',
+    title: 'Networking Event',
+    description: 'Acara networking dengan klien dan mitra',
+    image: '/aset/0GfHSok4FpwF794IxxL1j5cJOc.jpg'
+  },
+  {
+    id: '6',
+    title: 'Konsultasi Tim',
+    description: 'Sesi konsultasi dengan tim klien',
+    image: '/aset/Gambar WhatsApp 2025-11-21 pukul 13.05.26_1c85e01b.jpg'
+  },
+  {
+    id: '7',
+    title: 'Presentasi Hukum',
+    description: 'Presentasi materi hukum bisnis',
+    image: '/aset/Gambar WhatsApp 2025-11-21 pukul 13.05.26_06a370f4.jpg'
+  },
+  {
+    id: '8',
+    title: 'Diskusi Kasus',
+    description: 'Diskusi penanganan kasus hukum bisnis',
+    image: '/aset/Gambar WhatsApp 2025-11-21 pukul 13.07.19_38d88533.jpg'
+  },
+  {
+    id: '9',
+    title: 'Acara Kolaborasi',
+    description: 'Kolaborasi dengan mitra bisnis',
+    image: '/aset/0GfHSok4FpwF794IxxL1j5cJOc-1.jpg'
+  },
+  {
+    id: '10',
+    title: 'Pelatihan Hukum',
+    description: 'Pelatihan hukum untuk UMKM',
+    image: '/aset/Gambar WhatsApp 2025-11-21 pukul 13.09.30_78b09449.jpg'
+  },
+  {
+    id: '11',
+    title: 'Sesi Foto Tim',
+    description: 'Dokumentasi tim konsultan',
+    image: '/aset/Gambar WhatsApp 2025-11-21 pukul 13.09.30_b8e35de5.jpg'
+  },
+  {
+    id: '12',
+    title: 'Kunjungan Klien',
+    description: 'Kunjungan dan konsultasi klien',
+    image: '/aset/Gambar WhatsApp 2025-11-24 pukul 12.18.20_01e63665.jpg'
+  },
+  {
+    id: '13',
+    title: 'Meeting Strategis',
+    description: 'Pertemuan strategis dengan klien korporat',
+    image: '/aset/Gambar WhatsApp 2025-11-24 pukul 12.22.04_acc3b090.jpg'
+  },
+  {
+    id: '14',
+    title: 'Bersama KH Yusuf Mansur',
+    description: 'Kolaborasi dengan tokoh nasional',
+    image: '/aset/KH Yusuf Mansur.jpg'
   }
 ];
 
@@ -241,7 +277,7 @@ export const loadSampleData = (contentType: string) => {
 };
 
 // Data version - increment this when image paths or data structure changes
-export const DATA_VERSION = 2;
+export const DATA_VERSION = 6;
 
 // Helper function untuk save ke localStorage
 export const initializeSampleData = () => {

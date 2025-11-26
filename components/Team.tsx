@@ -7,6 +7,11 @@ const teamMembers = [
     name: 'Andi Firmansyah, S.H., M.H.',
     role: 'Konsultan Hukum Bisnis Senior',
     imgSrc: '/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_1671753d.jpg',
+    photos: [
+      '/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_1671753d.jpg',
+      '/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_a67ea4d6.jpg',
+      '/aset/Gambar WhatsApp 2025-11-20 pukul 19.41.39_dfe4335f.jpg'
+    ],
     socials: { 
       linkedin: 'https://www.linkedin.com/in/andi-firmansyah', 
       x: 'https://twitter.com/kawancurhat',
@@ -21,6 +26,7 @@ const teamMembers = [
 const TeamMemberCard: React.FC<{ member: typeof teamMembers[0]; index: number }> = ({ member, index }) => {
     const ref = useRef<HTMLDivElement>(null);
     const [isVisible, setIsVisible] = useState(false);
+    const [currentPhoto, setCurrentPhoto] = useState(member.imgSrc);
 
     useEffect(() => {
         const observer = new IntersectionObserver(([entry]) => {
@@ -43,7 +49,7 @@ const TeamMemberCard: React.FC<{ member: typeof teamMembers[0]; index: number }>
             style={{ transitionDelay: `${index * 150}ms` }}
         >
             <div className="relative overflow-hidden rounded-xl sm:rounded-2xl shadow-lg mb-2 sm:mb-3 md:mb-4 transition-all duration-300 group-hover:shadow-2xl group-hover:scale-105" style={{ aspectRatio: '3/4' }}>
-                <img src={member.imgSrc} alt={member.name} className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110" />
+                <img src={currentPhoto} alt={member.name} className="w-full h-full object-cover object-center transition-all duration-500 group-hover:scale-110" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-2 sm:p-3 md:p-4">
                     <div className="flex space-x-2 sm:space-x-3">
                         <a 
@@ -100,6 +106,26 @@ const TeamMemberCard: React.FC<{ member: typeof teamMembers[0]; index: number }>
                     </div>
                 </div>
             </div>
+
+            {/* Photo Gallery - Small thumbnails */}
+            <div className="flex justify-center gap-2 sm:gap-3 mb-3 sm:mb-4 px-2">
+                {member.photos.map((photo, idx) => (
+                  <div 
+                    key={idx}
+                    onClick={() => setCurrentPhoto(photo)}
+                    className={`relative overflow-hidden rounded-lg shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 ${
+                      currentPhoto === photo ? 'ring-2 ring-brand-accent ring-offset-2' : ''
+                    }`}
+                  >
+                    <img 
+                      src={photo} 
+                      alt={`${member.name} - Foto ${idx + 1}`} 
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                ))}
+            </div>
+
             <h3 className="text-sm sm:text-base md:text-lg lg:text-xl font-bold text-brand-text mb-1">{member.name}</h3>
             <p className="text-brand-accent text-xs sm:text-sm md:text-base mb-3">{member.role}</p>
             

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useSettings } from '../hooks/useSettings';
 
 interface Service {
   id: string;
@@ -236,6 +237,7 @@ interface ServiceDetailProps {
 }
 
 const ServiceDetail: React.FC<ServiceDetailProps> = ({ serviceId = 'hukum-pajak' }) => {
+  const settings = useSettings();
   const [service, setService] = useState<Service | null>(null);
 
   useEffect(() => {
@@ -328,13 +330,13 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ serviceId = 'hukum-pajak'
                 Konsultasikan kebutuhan Anda dengan tim ahli kami.
               </p>
               <a 
-                href="mailto:info@kawancurhat.com"
+                href={`mailto:${settings.email}`}
                 className="w-full bg-white text-brand-accent font-semibold py-2.5 sm:py-3 rounded-lg hover:bg-gray-100 transition-colors mb-2 sm:mb-3 text-sm sm:text-base text-center block"
               >
                 Jadwalkan Konsultasi
               </a>
               <a 
-                href="tel:08567886251"
+                href={`tel:${settings.phone}`}
                 className="w-full bg-transparent border-2 border-white text-white font-semibold py-2.5 sm:py-3 rounded-lg hover:bg-white/10 transition-colors text-sm sm:text-base text-center block"
               >
                 Hubungi Kami
@@ -351,7 +353,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ serviceId = 'hukum-pajak'
                   </svg>
                   <div>
                     <p className="text-xs sm:text-sm text-gray-500">Telepon</p>
-                    <p className="text-sm sm:text-base text-gray-700 font-semibold">08567886251</p>
+                    <p className="text-sm sm:text-base text-gray-700 font-semibold">{settings.phone}</p>
                   </div>
                 </div>
                 <div className="flex items-start">
@@ -360,7 +362,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ serviceId = 'hukum-pajak'
                   </svg>
                   <div>
                     <p className="text-xs sm:text-sm text-gray-500">Email</p>
-                    <p className="text-sm sm:text-base text-gray-700 font-semibold">info@kawancurhat.com</p>
+                    <p className="text-sm sm:text-base text-gray-700 font-semibold">{settings.email}</p>
                   </div>
                 </div>
               </div>

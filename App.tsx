@@ -10,6 +10,7 @@ import Process from './components/Process';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
 import Blog from './components/Blog';
+import Gallery from './components/Gallery';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
 import ScrollProgress from './components/ScrollProgress';
@@ -40,6 +41,7 @@ const App: React.FC = () => {
         <Process />
         <Testimonials />
         <VideoTestimonials />
+        <Gallery />
         <FAQ />
         <Blog />
         <ContactForm id="contact" />

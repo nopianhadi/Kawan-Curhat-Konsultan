@@ -50,16 +50,17 @@ http://localhost:5173/admin
 - Edit FAQ yang ada
 - Hapus FAQ
 
-### 7. Galeri
+### 7. Kelola Galeri
 - Upload gambar
 - Kelola galeri foto
+- Tambah deskripsi foto
 - Hapus gambar
 
 ### 8. Pengaturan
 - Konfigurasi website
-- Informasi kontak
-- Social media links
-- SEO settings
+- Informasi kontak (telepon, email, WhatsApp, alamat)
+- Social media links (Facebook, Instagram, LinkedIn, YouTube)
+- Nama dan deskripsi website
 
 ## Struktur File
 
@@ -69,6 +70,8 @@ admin/
 ├── Login.tsx             # Login page
 ├── Dashboard.tsx         # Dashboard dengan sidebar
 ├── ContentManager.tsx    # Universal content manager
+├── Settings.tsx          # Pengaturan website
+├── sampleData.ts         # Sample data untuk demo
 └── README.md            # Dokumentasi ini
 ```
 
